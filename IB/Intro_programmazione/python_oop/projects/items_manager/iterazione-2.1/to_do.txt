@@ -1,0 +1,10 @@
+**** ITERAZIONE 2 - TO DO ****
+Il punto di partenza è il codice nella classe itereazione-2/soluzione/main.py
+
+1) Svolgere tutti i punti presenti nel file ex1_todo.txt presenti nel cartella extra_exercises
+
+2) Riportare le funzioni scritte all'interno del file main.py contentenute nella soluzione. 
+All'interno della funzione read_from_csv implementare l'istanziazione degli oggetti con i parametri letti da CSV 
+
+
+print(Item.all_items) # Come far stampare una lista con tutte le istanze? 

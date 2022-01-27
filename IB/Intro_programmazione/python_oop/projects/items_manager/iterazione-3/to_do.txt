@@ -1,0 +1,6 @@
+**** ITERAZIONE 3 - TO DO ****
+Il punto di partenza è il codice nella classe itereazione-2.1/soluzione/main.py
+
+1) Aggiungere il decorator @classmethod al metodo instantiate_from_csv e modificare  il metodo di conseguenza
+
+2) Aggiungere il decorator @staticmethodo al metodo is_integer e modificare  il metodo di conseguenza

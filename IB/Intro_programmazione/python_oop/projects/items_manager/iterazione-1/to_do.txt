@@ -1,0 +1,14 @@
+**** ITERAZIONE 1 - TO DO ****
+
+Il punto di partenza è il codice nella classe main.py della cartella "getting_started"
+
+1) Dentro la classe Item scrivere il metodo __init__(self, name:str, price:float, quantity=0)
+    1.1) Nel metodo __init__ prevedere due controlli sulle variabili price e quantity in modo che siano maggiori di zero
+    1.2) Assegna nel metodo __init__ le variabili di classe name, price e quantity
+
+2) Rifattorizzare il metodo calculate_total_price in modo che non prenda più in input le variabili price e quantity ma 
+utilizzi le variabili di classe dichiarate nel metodo __init__
+
+3) Fuori dalla classe Item (nota: non dal file .py) prevedere: 
+    1. Due oggetti item e assegnarli a due variabili 
+    2. Stampare il risultato della funzione calculate_total_price() su queste variabili 

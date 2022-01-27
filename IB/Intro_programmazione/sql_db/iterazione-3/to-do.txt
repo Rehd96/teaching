@@ -1,0 +1,26 @@
+1. Crea la tabella "cliente" con i seguenti campi: 
+    - id --> numerico non nullo, chiave primaria
+    - nome --> text 
+    - email --> text 
+    - telefono --> text 
+
+
+2. Crea la tabella "riga_ordine" con i seguenti campi: 
+    - id --> numerico non nullo, chiave primaria
+    - fk_ordine numero non nullo, chiave esterna verso "ordine" 
+    - fk_riga_menu numerico non nulla, chiave esterna verso "menu"
+
+
+3. Modificare la tabella "ordine": 
+    - Eliminare la colonna "nome_cliente"
+    - Aggiungere una colonna fk_cliente di tipo id, chiave esterna verso la tabella "cliente"
+
+
+4. Creare una tabella "tessera_punti" con i seguenti campi: 
+    - id --> numerico non nullo, chiave primaria 
+    - data_creazione --> timestamp
+    - totale_punti --> numerico non nullo
+
+
+5. Modificare la tabella cliente: 
+    - Creare un campo "id_tessera" e renderla chiave primaria verso la tabella "tessera punti"

@@ -1,0 +1,31 @@
+**** ITERAZIONE 2 - TO DO ****
+Il punto di partenza è il codice nella classe itereazione-1/soluzione/main.py
+
+1) Modificare la classe item aggiugendo: 
+    1.1) Aggiungere una costante di classe "PAY_RATE". 
+         Questa è costante per tutti gli item ed è pari a 0,8. Indica, quindi, il prezzo rimanente dopo aver applicato il 20% di sconto. 
+
+    1.2) Aggiungere una variabile di classe di tipo lista "all_items". 
+
+2) Modificare il metodo __init__ del punto precedente: 
+    2.1) Aggiungere l'oggetto self alla lista creata al punto 1.2.
+    2.2) L'assegnazione delle variabili di classe con i valori dinamici presenti nella firma del metodo __init__ (name, price e quantity) può essere fatta anche dopo l'inserimento di self nella lista? Perché? 
+
+3) Scrivere un metodo "apply_discount(self, price)" per il calcolo del prezzo effettivo al netto dello sconto. Utilizzare il prezzo passato come parametro dinamico e il pay_rate di classe. 
+
+4) Modificare il metodo calculate_total_price(self) in modo da calcolare lo sconto prima del prezzo totale utilizzando il metodo scritto al punto 3
+
+5) Aggiungere il metodo __repr__ per la stampa degli attributi 
+
+
+Fuori dalla classe, il codice dovrà essere simile al seguente: 
+
+item1 = Item("Phone", 100, 1)
+item2 = Item("Laptop", 1000, 3)
+item3 = Item("Cable", 10, 5)
+item4 = Item("Mouse", 50, 5)
+item5 = Item("Keyboard", 75, 5)
+
+print(Item.all)
+for i in Item.all: 
+    print(i.name + " - " + str(i.calculate_total_price()))

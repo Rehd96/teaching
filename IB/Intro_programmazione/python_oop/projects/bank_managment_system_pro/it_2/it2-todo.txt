@@ -1,0 +1,18 @@
+*** ITERAZIONE 2 - TO-DO ***
+
+1) Assicurarsi che la branch di main abbia le modifiche della branch "iterazione_1"
+    1.1) Partendo da branch main, creare localmente una nuova branch chiamata "iterazione_2"
+    1.2) Una volta creata la branch, fare push verso repositiory GitHub
+    1.3) Scrivere il codice di questa iterazione in questa branch. 
+
+
+2) Modificare il codice scritto nella iterazione it_1 come segue: 
+    2.1) Modificare tutte le variabili di instanza e renderle private 
+    2.2) Scrivere opportunamente i setter e getter per tali variabili
+
+
+3) Rispondi alle domande nel file main.py
+
+
+4) Terminato il punto 3, committare le modifiche e fare push verso account di GitHub 
+    4.1) fare il merge della branch "iterazione_2" su main e successivamente fare push verso il repository GitHub

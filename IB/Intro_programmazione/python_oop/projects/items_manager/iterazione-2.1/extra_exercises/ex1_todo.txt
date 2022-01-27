@@ -1,0 +1,16 @@
+Scrivere i seguenti metodi: 
+
+1) def is_integer(num)
+Metodo che passato un valore ne determini se è di tipo intero (return True) oppure no (return False) 
+
+Hint: utilizzare il costrutto try - except + il cast int(). 
+
+2) def read_from_csv()
+Metodo che legge come input il file items.csv e ne stampi i dati all'interno. 
+Utilizzare la funzione scritta al punto precedente per controllare se i dati che provengono dalla colonna "quantity" del file sono interi. 
+Se il valore della quantity non è intero, non stampare la riga di item. 
+
+Hint: import della classe csv e per leggere utilizzare csv.DictReader 
+https://courses.cs.washington.edu/courses/cse140/13wi/csv-parsing.html (la parte fino alla lettura dei file) 
+
+3) Se al posto del try - except, usi la funzione isistance(), che problema avresti? 

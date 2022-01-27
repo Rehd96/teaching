@@ -1,0 +1,20 @@
+GETTING STARTED!
+
+Per un nuovo progetto, vogliamo creare un gestionale per una piccola banca chiamato "Banking Manangment System Pro".
+
+REGOLE DEL GIOCO: 
+
+- Lo sviluppo software seguirà una metodologia ad iterazioni incrementali, in ognuna di questa ci saranno piccole evolutive da portare al programma. 
+
+- In ogni cartella "it_numero-iterazione" troverai: 
+    - una cartella soluzione_it, dove alla fine della iterazione troverai il codice corretto in aula 
+    - it-todo.txt, un file con la consegna per quella iterazione 
+    - main.py, il file dove troverai codice già scritto che deve funzionare dopo la tua implementazione + alcune domande a quiz a cui ti consiglio di provare a rispondere prima di eseguire il file
+
+- Per ogni iterazione usa una branch creata da main, utilizza GitHub come provider remoto. 
+
+- Puoi utilizzare qualsiasi fonte durante lo sviluppo: documentazione, appunti e Google
+
+- Se qualche punto nelle consegne non è chiaro, chiedi! 
+
+Have a good coding! :)
