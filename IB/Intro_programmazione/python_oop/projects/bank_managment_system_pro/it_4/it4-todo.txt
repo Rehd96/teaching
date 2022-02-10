@@ -1,0 +1,33 @@
+*** ITERAZIONE 4 - TO-DO ***
+
+1) Assicurarsi che la branch di main abbia le modifiche della branch "iterazione_3"
+    1.1) Partendo da branch main, creare localmente una nuova branch chiamata "iterazione_4"
+    1.2) Una volta creata la branch, fare push verso repositiory GitHub
+    1.3) Scrivere il codice di questa iterazione in questa branch. 
+
+
+
+2) Modificare conto.py nel seguente modo: 
+	2.1) Aggiungere una variabile di classe 'tassa_prelievo' pari a 1.00 
+	2.2) Modificare il metodo preleva_soldi(self, value) in modo da tenere in considerazione anche la tassa_prelievo nel controllo disponibilità e saldo 
+    2.3) Aggiungere la classe ContoSpecial che eredita la classe Conto.  
+    2.4) Aggiungere alla classe ContoSpecial una variabile di classe tassa_prelievo pari ad 2.00.  
+    2.5) Aggiungere alla classe ContoSpecial una variabile di istanza 'data_inizio_debito' impostata di deafult a None
+    2.5) Fare override nella classe ContoSpecial del metodo preleva_soldi(self, value) in modo sottrarre la tassa prelievo ad ogni prelievo. 
+         Eliminare il controllo sulla disponibilità del fondo (Accettabile un saldo negativo, quindi). 
+    2.6) Modificare il metodo preleva_soldi della classe ContoSpecial in modo che se il conto diventa negativo, la data_inizio_debito  
+         deve essere pari al timestamp attuale (now). Nota, inserire opportuni controlli per evitare di sovrascrivere la variabile se già 
+         valorizzata 
+    2.7) Modificare il metodo versa_soldi della classe ContoSpecial in modo da chiamare la super della classe padre e successivamente prevedere
+         un controllo tale che se il saldo è tornato positivo, deve reimpostare la variabile data_inizio_debito a None e stampare un messaggio 
+         avvertendo il cliente che il saldo è tornato positivo 
+
+
+3) Modificare banca.py nel seguente modo: 
+	3.1) Aggiungere una variabile di istanza 'nazione' che di default è 'IT'
+	3.2) Scrivere i setter e getter relativi alla variabile 'nazione'
+	3.3) Modificare il metodo __repr__ con la stampa della nazione
+
+
+4) Terminato il punto 3, committare le modifiche e fare push verso account di GitHub 
+    4.1) fare il merge della branch "iterazione_4" su main e successivamente fare push verso il repository GitHub

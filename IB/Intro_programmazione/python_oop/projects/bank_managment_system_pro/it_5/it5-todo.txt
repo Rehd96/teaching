@@ -1,0 +1,24 @@
+*** ITERAZIONE 5 - TO-DO ***
+
+1) Assicurarsi che la branch di main abbia le modifiche della branch "iterazione_4"
+    1.1) Partendo da branch main, creare localmente una nuova branch chiamata "iterazione_5"
+    1.2) Una volta creata la branch, fare push verso repositiory GitHub
+    1.3) Scrivere il codice di questa iterazione in questa branch. 
+
+2) Aggiungere un file persistence.py con al suo interno una classe PersistenceHandler con i seguenti metodi:
+    2.1) Un metodo salva_banca() che consente di salvare in un file banca.json tutte le istanze di una banca
+    2.2) Un metodo salva_cliente() che consente di salvare in un file cliente.json tutte le istanze di un cliente
+    2.3) Un metodo salva_conto() che consente di salvare in un file conto.json tutte le istanze di una conto
+    2.4) Un metodo salva_tutto() che consente di salvare le classi banca, cliente e conto (passati come parametri)
+    Nota: utilizzare un ClassEncoder
+    
+3) Modificare il metodo della classe ContoSpecial affinché, dopo che il saldo è tornato positivo, 
+   stampi un messaggio con il totale dei giorni in cui il conto è stato negativo e il totale degli interessi 
+   passivi da pagare (1.2€ per ogni giorno in negativo) 
+
+4) Aggiungere alla classe Cliente un metodo per la stampa di tutti i cognomi dei clienti e il loro saldo attuale. 
+
+5) Aggiungere alla classe Cliente un metodo per la stampa di tutti i cognomi dei clienti e il loro codice conto. 
+
+6) Terminato il punto 5, committare le modifiche e fare push verso account di GitHub 
+    6.1) fare il merge della branch "iterazione_5" su main e successivamente fare push verso il repository GitHub

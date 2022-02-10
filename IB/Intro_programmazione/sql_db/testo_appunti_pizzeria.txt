@@ -1,0 +1,14 @@
+Si vuole commissionare un sistema di gestione per una pizzeria chiamata "Da Luigi". 
+
+Il sistema deve prevedere le seguenti caratteristiche: 
+
+1. Gli ordini da gestire devono essere solo per le consegne a domicilio e non ai tavoli. 
+
+2. Si vuole tenere traccia dell'anagrafica dei clienti, con i dati base (nome, email, telefono, indirizzo)
+
+3. Per ogni cliente, la pizzeria rilascia una tessera fedeltà con il totale punti che si aggiorna per ogni ordine. 
+
+4. Nella prima iterazione, prendere solo in considerazione un menu fatto di pizze. 
+
+5. Per ragioni statistiche, prevedere anche la memorizzazione del rider associato all'ordine, compreso il nome dell'azienda per cui lavora. 
+

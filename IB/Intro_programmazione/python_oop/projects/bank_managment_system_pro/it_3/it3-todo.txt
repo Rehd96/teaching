@@ -1,0 +1,37 @@
+*** ITERAZIONE 3 - TO-DO ***
+
+1) Assicurarsi che la branch di main abbia le modifiche della branch "iterazione_2"
+    1.1) Partendo da branch main, creare localmente una nuova branch chiamata "iterazione_3"
+    1.2) Una volta creata la branch, fare push verso repositiory GitHub
+    1.3) Scrivere il codice di questa iterazione in questa branch. 
+
+
+2) Aggiungere variabile id alle classi 
+    2.1) Rendere 'id' privata
+    2.2) Generare automaticamente un id nell'init delle classi 
+    2.3) Non prevedere property e setter per la variabile id
+
+Aggiungere alla classe Cliente il parametro id (compresi i setter e getter)
+
+
+3) Aggiungere un file utility.py con una classe Utility al suo interno.
+    3.1) nella classe Utility scrivere un metodo statico is_integer(num) che dato un parametro di input torna True opppure False se il numero è un intero o no. 
+
+
+4) Aggiungere alla classe Banca i seguenti metodi: 
+    4.1) apri_conto_corrente(self, conto), aggiunge l'oggetto conto passato come parametro alla lista conti_correnti
+    4.2) aggiungi_cliente(self, cliente), aggiunge l'oggetto cliente passato come parametro alla lista clienti
+    4.3) chiudi_conto_corrente(self, numero_conto), rimuove dalla lista conti_correnti il conto corrente con il numero_conto corrispondente
+    4.4) rimuovi_cliente(self_id), rimuove dalla lista dei clienti il cliente passato come id
+
+    Nota: entrambi i metodi di rimozione devono stampare un messaggio di errore se il dato non è presente nella lista. Se presente, dopo la rimozione, devono stampare un messaggio di feedback positivo 
+
+5) Aggiungere alla classe Conto i seguenti metodi: 
+    5.1) versa_soldi(self, value), aggiunge al saldo una quantità di soldi pari a value. 
+         Prevedere la stampa di un messaggio di conferma di avvenuta operazione
+    5.2) preleva_soldi(self, value), toglie al saldo una quantità di soldi pari a value. 
+         Prevedere la stampa di un messaggio di conferma di avvenuta operazione e prevedere inoltre un controllo prima del prelievo, 
+         se la quantità che si vuole prelevare è superiore al saldo disponibile, stampare un messaggio di errore. 
+
+6) Terminato il punto 5, committare le modifiche e fare push verso account di GitHub 
+    6.1) fare il merge della branch "iterazione_3" su main e successivamente fare push verso il repository GitHub

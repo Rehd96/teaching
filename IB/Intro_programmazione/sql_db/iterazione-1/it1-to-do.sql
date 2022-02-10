@@ -1,7 +1,7 @@
 --1. Creare un database con Postgresql chiamato "pizzeria_da_luigi" utilizzando PgAdmin (o un client a tua scelta)
  
 --2 All'interno del database crea una una tabella "ordine"
-CREATE TABLE "ordine" (id INTEGER NOT NULL, nome_pizza varchar(15), nome_cliente varchar(30), data_ordine timestamp, totale_ordine decimal)
+CREATE TABLE "ordine" (id INTEGER NOT NULL, nome_pizza varchar(15), nome_cliente varchar(30), data_ordine timestamp, totale_ordine decimal);
 
 --3 Popolare la tabella
 INSERT INTO "ordine" VALUES(0, 'Margherita', 'Davide', '14/01/2022 20:05', 5.5); 
@@ -51,9 +51,6 @@ SELECT COUNT(*) FROM "ordine"
 
 --11 Gli ordini che sono di uno specifico giorno
 SELECT * FROM "ordine" WHERE data_ordine BETWEEN '15/01/2022 00:00' AND '16/01/2022 00:00'
-
---12 Selezionare gli ordini con 3 nomi diversi di pizza (Utilizzare costrutto IN)
-SELECT * FROM "ordine" WHERE nome_pizza IN ('Margherita', 'Boscaiola', 'Diavola')
 
 --13 Il totale dei prezzi 
 SELECT SUM(totale_ordine) AS "Totale ordini" FROM "ordine" 

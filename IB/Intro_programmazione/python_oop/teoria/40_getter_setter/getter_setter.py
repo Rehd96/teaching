@@ -47,7 +47,7 @@ obj.set_a(45)
 print(obj.get_a())
 
 
-''''
+'''
 3. Property 
 
 E se volessimo aggiungere una logica sul set dei dati? 
